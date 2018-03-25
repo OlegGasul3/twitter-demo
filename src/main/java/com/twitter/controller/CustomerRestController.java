@@ -17,12 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CustomerRestController {
-
-	
 	@Autowired
 	private CustomerService customerService;
 
-	
 	@GetMapping("/customers")
 	public List getCustomers() {
 		return customerService.list();
