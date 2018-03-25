@@ -1,4 +1,4 @@
-package com.twitter.dao;
+package com.twitter.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import com.twitter.model.Customer;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CustomerDAO {
+public class CustomerService {
 
 	// Dummy database. Initialize with some dummy values.
 	private static List<Customer> customers;
