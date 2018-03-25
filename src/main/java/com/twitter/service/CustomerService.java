@@ -19,6 +19,10 @@ public class CustomerService {
 		customers.add(new Customer(System.currentTimeMillis(), "Viral", "Patel", "vpatel@gmail.com", "356-758-8736"));
 	}
 
+    public void addPost(String email, String post) {
+
+    }
+
 	/**
 	 * Returns list of customers from dummy database.
 	 * 
